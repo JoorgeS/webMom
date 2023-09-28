@@ -1,0 +1,30 @@
+body {
+    margin: 5px;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    padding-top: 56px;
+  }
+#carouselExample .carousel-item {
+    width: 100%;
+    
+  }
+.navbar-brand img{
+    display: none;
+  }
+@media (min-width: 768px) {  
+    .custom-card {
+        margin-left: 70px; /* Agrega un margen exterior a las tarjetas */
+        max-width: 30%; /* Establece el ancho máximo de las tarjetas */
+        align-items: center;
+        justify-content: center;
+        
+    }
+    body {
+        margin-top: 90px; /* Ajusta esto según la altura de tu navbar */
+      }
+    .navbar-brand img{
+        width: 10%;
+        margin-right: 30%;
+      }
+}

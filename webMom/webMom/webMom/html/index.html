@@ -1,0 +1,250 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-9ndCyUaIbzAi2FUVXJi0CjmCapSmO7SnpJef0486qhLnuZ2cdeRhO02iuK6FUUVM" crossorigin="anonymous">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js" integrity="sha384-geWF76RCwLtnZ8qwWowPQNguL3RmwHVBC9FhGdlKrxdiJJigb/j/68SIy3Te4Bkz" crossorigin="anonymous"></script>
+    <link href="\style.css" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+
+</head>
+<body>
+<nav class="navbar navbar-expand-lg bg-body-tertiary fixed-top">
+  <div class="container-fluid">
+    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+    <div class="collapse navbar-collapse" id="navbarSupportedContent">
+      <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+        <li class="nav-item">
+            <a class="nav-link active" aria-current="page" href="#">Inicio</a>
+        </li>
+        <li class="nav-item">
+            <a class="nav-link active" aria-current="page" href="#panDePascua">Pan de Pascua</a>
+        </li>
+        <li class="nav-item">
+            <a class="nav-link active" aria-current="page" href="#queques">Queques</a>
+        </li>
+        <li class="nav-item">
+            <a class="nav-link active" aria-current="page" href="#kuchen">Kuchen</a>
+          </li>
+      </ul>
+      <ul>
+        <div class="container-fluid">
+          <a class="navbar-brand" href="#"><img src="/images/Tía Rosita.png" alt="Logo"></a>
+        </div>
+      </ul>
+      <ul class="navbar-nav ms-auto me-0">
+        <li class="nav-item">
+          <a class="nav-link active" data-bs-toggle="offcanvas" href="#offcanvasRightLabel" role="button" data-bs-target="#offcanvasRight" aria-controls="offcanvasRight">
+            <i class="fas fa-shopping-cart"></i> Carrito
+          </a>
+        </li>
+      </ul>
+    </div>
+  </div>
+</nav>
+
+<div id="carouselExample" class="carousel slide">
+  <div class="carousel-inner" style="width: auto; height: fit-content;">
+    <div class="carousel-item active">
+      <a href="#panDePascua"> <!-- Agregar el enlace aquí -->
+        <img src="\images\1.png" class="d-block w-100" alt="panPascua" aria-current="page">
+      </a>
+    </div>
+    <div class="carousel-item active">
+      <a href="#queques"> <!-- Agregar el enlace aquí -->
+        <img src="\images\2.png" class="d-block w-100" alt="Queques" aria-current="page">
+      </a>
+    </div>
+    <div class="carousel-item active">
+      <a href="#kuchen"> <!-- Agregar el enlace aquí -->
+        <img src="\images\3.png" class="d-block w-100" alt="Kuchen" aria-current="page">
+      </a>
+    </div>
+  </div>
+  <button class="carousel-control-prev" type="button" data-bs-target="#carouselExample" data-bs-slide="prev">
+    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+    <span class="visually-hidden">Previous</span>
+  </button>
+  <button class="carousel-control-next" type="button" data-bs-target="#carouselExample" data-bs-slide="next">
+    <span class="carousel-control-next-icon" aria-hidden="true"></span>
+    <span class="visually-hidden">Next</span>
+  </button>
+</div>
+
+<!-- FIN DEL CARRUSEL-->
+
+<!-- Cards para Panes de Pascua-->
+<div id="panDePascua"></div>
+<div><h5> Pan de Pascua Frutos Secos </h5></div>
+<div class="card-group">
+  <div class="card custom-card">
+    <img src="\images\panpascua2.jpeg" class="card-img-top" alt="panpascua1">
+    <div class="card-body">
+      <h5 class="card-title">Pan de Pascua Frutos Secos 1Kg</h5>
+      <p class="card-text">Con nueces y almendras. 9 a 11 porciones.</p>
+      <h5 class="card-title">$6500</h5>
+    </div>
+    <div class="card-footer">
+      <small class="button">Agregar</small>
+    </div>
+  </div>
+  <div class="card custom-card">
+    <img src="\images\panpascua1.png" class="card-img-top" alt="panpascua2">
+    <div class="card-body">
+      <h5 class="card-title">Pan de Pascua Fruta Confitada 1/2Kg</h5>
+      <p class="card-text">Con nueces y almendras. 5 a 8 porciones.</p>
+      <h5 class="card-title">$3500</h5>
+    </div>
+    <div class="card-footer">
+      <small class="button">Agregar</small>
+    </div>
+  </div>
+  <div class="card custom-card">
+    <img src="\images\panpascuaindividual.png" class="card-img-top" alt="paspascuaindividual">
+    <div class="card-body">
+      <h5 class="card-title">Porción Pan de Pascua 200gr</h5>
+      <p class="card-text">Formato individual.</p>
+      <h5 class="card-title">$1500</h5>
+    </div>
+    <div class="card-footer">
+      <small class="button">Agregar</small>
+    </div>
+  </div>
+</div>
+
+<!-- Cards de FrutaConfitada -->
+<div><h5>Pan de Pascua Fruta Confitada </h5></div>
+<div class="card-group">
+  <div class="card custom-card">
+    <img src="\images\panpascua2.jpeg" class="card-img-top" alt="panpascua1">
+    <div class="card-body">
+      <h5 class="card-title">Pan de Pascua Fruta Confitada 1Kg</h5>
+      <p class="card-text">Fruta confitada y pasas. 9 a 11 porciones.</p>
+      <h5 class="card-title">$6500</h5>
+    </div>
+    <div class="card-footer">
+      <small class="button">Agregar</small>
+    </div>
+  </div>
+  <div class="card custom-card">
+    <img src="\images\panpascua1.png" class="card-img-top" alt="panpascua2">
+    <div class="card-body">
+      <h5 class="card-title">Pan de Pascua Fruta Confitada 1/2Kg</h5>
+      <p class="card-text">Fruta confitada y pasas. 5 a 8 porciones.</p>
+      <h5 class="card-title">$3500</h5>
+    </div>
+    <div class="card-footer">
+      <small class="button">Agregar</small>
+    </div>
+  </div>
+  <div class="card custom-card">
+    <img src="\images\panpascuaindividual.png" class="card-img-top" alt="paspascuaindividual">
+    <div class="card-body">
+      <h5 class="card-title">Porción Pan de Pascua 200gr</h5>
+      <p class="card-text">Formato individual.</p>
+      <h5 class="card-title">$1500</h5>
+    </div>
+    <div class="card-footer">
+      <small class="button">Agregar</small>
+    </div>
+  </div>
+</div>
+
+<!-- Cards de Queques -->
+<div id="queques"></div>
+<div><h5> Queques </h5></div>
+<div class="card-group">
+  <div class="card custom-card">
+    <img src="\images\queques3.jpeg" class="card-img-top" alt="Manjar-Nuez">
+    <div class="card-body">
+      <h5 class="card-title">Queque Manjar-Nuez</h5>
+      <p class="card-text">Queque con manjar y nueces. 13 a 16 porciones.</p>
+      <h5 class="card-title">$6500</h5>
+    </div>
+    <div class="card-footer">
+      <small class="button">Agregar</small>
+    </div>
+  </div>
+  <div class="card custom-card">
+    <img src="\images\queques2.jpeg" class="card-img-top" alt="queques2">
+    <div class="card-body">
+      <h5 class="card-title">Queque Variedades</h5>
+      <p class="card-text">Escoje tu sabor: Vainilla, Naranja, Yogurt, Zapallo Italiano, Limón, Plátano.</p>
+      <h5 class="card-title">$6500</h5>
+    </div>
+    <div class="card-footer">
+      <small class="button">Agregar</small>
+    </div>
+  </div>
+  <div class="card custom-card">
+    <img src="\images\quequitos1.jpeg" class="card-img-top" alt="paspascuaindividual">
+    <div class="card-body">
+      <h5 class="card-title">Queque individual 200gr</h5>
+      <p class="card-text">Elige tu sabor favorito en formato individual.</p>
+      <h5 class="card-title">$500</h5>
+    </div>
+    <div class="card-footer">
+      <small class="button">Agregar</small>
+    </div>
+  </div>
+</div>
+
+<!-- Cards de Kuchen -->
+<div id="kuchen"></div>
+<div><h5 id="#PPFC"> Kuchen </h5></div>
+<div class="card-group">
+  <div class="card custom-card">
+    <img src="\images\kuchen1.jpeg" class="card-img-top" alt="kuchen1">
+    <div class="card-body">
+      <h5 class="card-title">Kuchen Plátano-Manzana</h5>
+      <p class="card-text">Plátano y manzana. 13 a 16 porciones.</p>
+      <h5 class="card-title">$7000</h5>
+    </div>
+    <div class="card-footer">
+      <small class="button">Agregar</small>
+    </div>
+  </div>
+  <div class="card custom-card">
+    <img src="\images\kuchen2.jpeg" class="card-img-top" alt="kuchen2">
+    <div class="card-body">
+      <h5 class="card-title">Kuchen de Mermelada</h5>
+      <p class="card-text">Escoje tu sabor: Mora, Durazno, Damasco, Frutilla. 13 a 16 porciones</p>
+      <h5 class="card-title">$7000</h5>
+    </div>
+    <div class="card-footer">
+      <small class="button">Agregar</small>
+    </div>
+  </div>
+  <div class="card custom-card">
+    <img src="\images\kuchen2.jpeg" class="card-img-top" alt="kuchen3">
+    <div class="card-body">
+      <h5 class="card-title">Kuchen de Manzana</h5>
+      <p class="card-text">Mánzana y canela. 13 a 16 porciones</p>
+      <h5 class="card-title">$7000</h5>
+    </div>
+    <div class="card-footer">
+      <small class="button">Agregar</small>
+    </div>
+  </div>
+</div>
+
+<!-- Carrito -->
+<div class="offcanvas offcanvas-end" tabindex="-1" id="offcanvasRight" aria-labelledby="offcanvasRightLabel">
+  <div class="offcanvas-header">
+    <h5 class="offcanvas-title" id="offcanvasRightLabel">Carrito</h5>
+    <button type="button" class="btn-close" data-bs-dismiss="offcanvas" aria-label="Close"></button>
+  </div>
+  <div class="offcanvas-body">
+    Productos
+  </div>
+</div>
+</body>
+<footer>
+  
+</footer>
+</html>
